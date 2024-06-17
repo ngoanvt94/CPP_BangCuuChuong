@@ -6,6 +6,10 @@ int main()
 	int n;
 	cout << "Nhap so";
 	cin >> n;
+
+	for(int n = 2; n <=9; n++)
+
+
 	if (n < 1 || n > 10) {
 		cout << "So khong hop le!";
 	}
@@ -15,6 +19,9 @@ int main()
 
 		}
 	}
+
+
+	
 	return 0;
 }
 
